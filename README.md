@@ -1,1 +1,1 @@
-# kkn-72
+this repo initialized for kkn project
