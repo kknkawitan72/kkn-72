@@ -12,3 +12,20 @@
     border: 2px solid black;
     border-radius: 50%;
 }
+
+.map-wrapper{
+    max-width: 700px;
+    border: 2px solid red;
+}
+
+.googlemap{
+    width: 100%;
+}
+
+.hovered-card{
+    transition: 0.3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
