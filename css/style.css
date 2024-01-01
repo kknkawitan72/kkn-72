@@ -29,3 +29,12 @@
 .hovered-card:hover{
     transform: scale(1.1);
 }
+
+.rounded-right {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.rounded-left {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
