@@ -127,7 +127,9 @@
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">Card title</h5>
                             <!-- <p class="card-text"></p> -->
-                            <a href="#" class="btn btn-primary rounded-pill">selengkapnya</a>
+                            <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#selengkapnya">
+                                selengkapnya
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -138,7 +140,9 @@
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">Card title</h5>
                             <!-- <p class="card-text"></p> -->
-                            <a href="#" class="btn btn-primary rounded-pill">selengkapnya</a>
+                            <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#selengkapnya">
+                                selengkapnya
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -149,7 +153,9 @@
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">Card title</h5>
                             <!-- <p class="card-text"></p> -->
-                            <a href="#" class="btn btn-primary rounded-pill">selengkapnya</a>
+                            <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#selengkapnya">
+                                selengkapnya
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -160,9 +166,41 @@
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">Card title</h5>
                             <!-- <p class="card-text"></p> -->
-                            <a href="#" class="btn btn-primary rounded-pill">selengkapnya</a>
+                            <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#selengkapnya">
+                                selengkapnya
+                            </button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="selengkapnya" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Produk</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mt-3">
+                            <img src="https://picsum.photos/200" alt="">
+                        </div>
+                        <div class="text-center my-3">
+                            <h5>Product Name</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -185,9 +223,9 @@
                 <div class="col-md-6">
                     <div class="map-wrapper">
                         <iframe class="googlemap"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31645.73195698969!2d108.24862121507398!3d-7.496520021692033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65f0c394232137%3A0x41759951f6c6fe7e!2sKawitan%2C%20Salopa%2C%20Tasikmalaya%20Regency%2C%20West%20Java%2C%20Indonesia!5e0!3m2!1sen!2ssg!4v1703942287846!5m2!1sen!2ssg"
-                        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31645.73195698969!2d108.24862121507398!3d-7.496520021692033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65f0c394232137%3A0x41759951f6c6fe7e!2sKawitan%2C%20Salopa%2C%20Tasikmalaya%20Regency%2C%20West%20Java%2C%20Indonesia!5e0!3m2!1sen!2ssg!4v1703942287846!5m2!1sen!2ssg"
+                            width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -201,8 +239,10 @@
             <p class="text-center text-dark">Lorem ipsum dolor sit.</p>
             <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control rounded-left" placeholder="ketikkan email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-primary text-light rounded-right" type="button" id="button-addon2">Button</button>
+                    <input type="text" class="form-control rounded-left" placeholder="ketikkan email"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary text-light rounded-right" type="button"
+                        id="button-addon2">Button</button>
                 </div>
             </div>
         </div>
