@@ -39,15 +39,32 @@
     border-bottom-left-radius: 30px;
 }
 
-.orange-button{
-    background-color: #f59826;
-    border: 1px solid #f59826;
+.button-kinda-green{
+    background-color: #75c3b7;
+    border: 1px solid #75c3b7;
 }
 
-.bg-green{
-    background-color: #a0eb74;
+.button-kinda-green:focus{
+    background-color: #75c3b7;
+    border: 1px solid #75c3b7;
 }
 
-.bg-light-green{
-    background-color: #e6eae4;
+.button-kinda-green:active{
+    background-color: #75c3b7;
+    border: 1px solid #75c3b7;
+}
+
+.button-kinda-green:hover{
+    background-color: #5e9b92;
+    border: 1px solid #5e9b92;
+    color: whitesmoke;
+}
+
+.bg-kinda-black{
+    background-color: #283e44;
+}
+
+.bg-pink{
+    /* background-color: #e7c6b9; */
+    background-color: #e7cabe;
 }
