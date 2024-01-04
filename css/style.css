@@ -38,3 +38,16 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+
+.orange-button{
+    background-color: #f59826;
+    border: 1px solid #f59826;
+}
+
+.bg-green{
+    background-color: #a0eb74;
+}
+
+.bg-light-green{
+    background-color: #e6eae4;
+}
