@@ -42,16 +42,19 @@
 .button-kinda-green{
     background-color: #75c3b7;
     border: 1px solid #75c3b7;
+    color: white;
 }
 
 .button-kinda-green:focus{
     background-color: #75c3b7;
     border: 1px solid #75c3b7;
+    color: white;
 }
 
 .button-kinda-green:active{
     background-color: #75c3b7;
     border: 1px solid #75c3b7;
+    color: white;
 }
 
 .button-kinda-green:hover{
@@ -67,4 +70,36 @@
 .bg-pink{
     /* background-color: #e7c6b9; */
     background-color: #e7cabe;
+}
+
+/* pagination */
+.active-page{
+    background-color: #75c3b7;
+    border: 1px solid #75c3b7;
+    color: #283e44;
+}
+
+.active-page:hover{
+    background-color: #5e9b92;
+    border: 1px solid #5e9b92;
+    color: whitesmoke;
+}
+.active-page:focus{
+    background-color: #75c3b7;
+    border: 1px solid #75c3b7;
+    color: #283e44;
+}
+
+.active-page:active{
+    background-color: #75c3b7;
+    border: 1px solid #75c3b7;
+    color: #283e44;
+}
+
+.page-link{
+    color: #283e44;
+}
+
+.page-link:hover{
+    color: #283e44;
 }
